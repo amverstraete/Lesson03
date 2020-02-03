@@ -15,8 +15,8 @@ rgb(68, 71, 73)  - DARK GREY
 
 body {
    display: flexbox;
-    padding: 0em 2em 0em 2em;
-    margin:.55in;
+    margin:0;
+    padding:0;
     min-width: 550px;
     font-size: 16pt;         
     background-color:0;
@@ -34,11 +34,17 @@ img {
   max-width: 550px;
   max-height:675px;
 
-
-    
-
-
 }
+
+
+
+.content-wrap{
+    width: 777px;
+    margin: 0 auto;
+    padding: 50px 0;
+   
+}
+
 .magazine {
     
    max-width: 550px;
@@ -57,10 +63,16 @@ h1{
    
 }
 h2 {
+    
+    margin: 0;
     font-size: 25pt;
 }
 h3{
     font-size:22pt;
+}
+
+h4{
+    font-style: italic;
 }
 .projectname{
     font-style: italic;
@@ -81,6 +93,7 @@ h3{
     padding: 5px;
     border-radius: 6px;
     font-weight: bold;
+    display: inline-block;
 
 }
 a {
@@ -93,33 +106,28 @@ a:hover{
 }
 header {
     background:#B4EDD2;
- height:100%
     text-align: center;
-    padding: 5em 3em 5em 3em;
+    
  
 }
 .projects {
     background:#818D92;
     color: white;
- height:100%;
-padding: 5em 3em 5em 3em;
+
 }
 
 .work {
     background: #A0CFD3;;
-  height:100%;
-  padding:5em 3em 5em 3em;
+
 }
 
 .edu{
     background:#E8EDDF;
-    height: 100%;
-    padding:5em 3em 5em 3em;
+  
 }
 
 footer {
     background-color: #FCC8B2  ;
     color:white;
-    height: 100%;
-    padding: 1em 2em 1em 2em
+  
 }
