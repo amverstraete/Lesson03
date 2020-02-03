@@ -14,7 +14,6 @@ rgb(68, 71, 73)  - DARK GREY
 
 
 body {
-   display: flexbox;
     margin:0;
     padding:0;
     min-width: 550px;
@@ -25,35 +24,60 @@ body {
         }
 }
 img {
-       
-    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
        
 }
-.north {
-  
-  max-width: 550px;
-  max-height:675px;
-
-}
-
-
 
 .content-wrap{
-    width: 777px;
+    width: 825px;
     margin: 0 auto;
     padding: 50px 0;
    
 }
 
+.north {
+  
+  max-width: 550px;
+  max-height:675px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+
+
+
+
 .magazine {
     
    max-width: 550px;
   max-height:675px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   border: solid;
+   border-width: 5px;
+   border-color: white;
 }
 .info {
 
     max-width: 550px;
   max-height:725px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid;
+    border-width: 5px;
+    border-color: white;
 }
 
 
@@ -69,6 +93,7 @@ h2 {
 }
 h3{
     font-size:22pt;
+    
 }
 
 h4{
@@ -76,6 +101,15 @@ h4{
 }
 .projectname{
     font-style: italic;
+    color: rgb(57, 55, 55);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+}
+
+.additional{
+    font-weight:bold;
 }
 
 .location {
@@ -93,9 +127,8 @@ h4{
     padding: 5px;
     border-radius: 6px;
     font-weight: bold;
-    display: inline-block;
-
 }
+
 a {
     text-decoration: none;
     color:rgb(147, 79, 71);
