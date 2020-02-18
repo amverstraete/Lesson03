@@ -37,7 +37,7 @@ body {
 .content-wrap{
     width: 825px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding:100px 0;
    
 }
 
@@ -141,6 +141,7 @@ a {
 }
 a:hover{
     background-color: lightgrey;
+    padding:5px;
 }
 header {
     background:#B4EDD2;
@@ -169,3 +170,53 @@ footer {
     color:white;
   
 }
+
+
+
+#navbar {
+width: 100%;
+font-weight: bold;
+padding:0px 10px;
+
+display: inline-block;
+}
+
+
+#nav, #nav ul{
+padding: 0;
+margin:0;
+list-style:none;
+line-height: 1;
+Text-align:center;
+}
+
+
+#nav a {
+display:inline-block;
+position: relative;
+width:150px;
+text-decoration: none;
+
+}
+
+#nav li {
+ float: right;
+ width:165px;
+font-size: 14px;
+padding: 15px 2px;
+background-color: white;
+
+}
+#nav li ul {
+position: absolute;
+width: 200px;
+left: -999em;
+}
+
+
+#nav li:hover ul {
+left:auto;
+width:220px;
+}
+
+
