@@ -140,7 +140,7 @@ a {
     
 }
 a:hover{
-    background-color: lightgrey;
+    background-color:rgb(122, 134, 139);
 }
 header {
     background:#B4EDD2;
@@ -176,6 +176,7 @@ footer {
     padding:0px 10px;
     text-align: center;
     display: inline-block;
+    background-color: rgb(68, 71, 73);
     }
     
     
@@ -186,6 +187,7 @@ footer {
     line-height: 1;
     Text-align:center;
     display: inline-block;
+    
 
     }
     
@@ -196,6 +198,7 @@ footer {
     width:200px;
     text-decoration: none;
     text-align: center;
+   color:white;
     
     }
     
@@ -204,7 +207,6 @@ footer {
      width:200px;
     font-size: 14px;
     padding: 15px 2px;
-    background-color: white;
     text-align: center;
     
     }
@@ -213,6 +215,7 @@ footer {
     width: 200px;
     left: -999em;
     text-align: center;
+    background-color: rgb(68, 71, 73)
     }
     
     
