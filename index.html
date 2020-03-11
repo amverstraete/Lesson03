@@ -13,7 +13,14 @@
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
         <div class="content-wrap">
-            <h1>Anna Verstraete</h1>
+          <picture>
+            <source media="(max-width: 600px)" srcset="images/me_450px.jpg">
+            <source media="(max-width: 1000px)" srcset=" images/me_750px.jpg"> 
+            <source srcset="images/me_1000px.jpg">
+          <img class="me" alt="Anna Verstraete" src="images/me_1000px.jpg">
+          </picture>
+       <br><br><br>
+          <h1>Anna Verstraete</h1>
             <h4 >Graphic Design and Advertising Student</h4>
         </div>
       </header>
@@ -50,14 +57,27 @@
        
         <!-- Copy the whole <section> block to add more projects. -->
         <section class="project-item">
-          <img class="north"src="images/north.jpg" alt="Advertisement for Roadtripper Beer">
+          <img class="north"src="images/north_1000px.jpg" alt="Advertisement for Roadtripper Beer on the North Shore"
+          srcset="images/north_1000px.jpg 1000w,
+          images/north_750px.jpg 750w,
+          images/north_450px.jpg 450w,"
+          sizes="50vw" >
+          
           <h3 class="projectname">Roadtripper Can Campaign</h3>
          
           <p class="projectp">The goal of this project was to develop a cohesive beverage campaign. The brand name is Roadtripper and the brew is called North Country Nitro. The can design is based on the classic “Up North” scenery paired with the classic van for a road trip.</p>
-      <img class="magazine"src="images/mag.jpg" alt="Explorer Magazine Cover">
+      <img class="magazine"src="images/mag_1000px.jpg" alt="Explorer Magazine Cover featuring Windmill and poppies"
+      srcset="images/mag_1000px.jpg 1000w,
+          images/mag_750px.jpg 750w,
+          images/mag_450px.jpg 450w,"
+          sizes="50vw" >
       <h3 class="projectname">Magazine Cover</h3>
       <p class="projectp">This goal of this project was to design a magazine cover by combining multiple images. I enjoy to travel so I chose to design a travel magazine cover featuring images from my past travels. This cover combines images from Belgium, The United Kingdom, and Portland.</p>
-      <img class="info" src="images/info.jpg" alt="Infographic for 2019 Real Estate Trends">
+      <img class="info" src="images/info_1000px.jpg" alt="Infographic for 2019 Real Estate Trends"
+      srcset="images/info_1000px.jpg 1000w,
+          images/info_750px.jpg 750w,
+          images/info_450px.jpg 450w,"
+          sizes="50vw" >
         <h3 class="projectname">Real Estate -2019 Homes</h3>
         
         <p class="projectp">This infographics was created based on the information from the NAR Home Buyers and Sellers Generational Trends Report to help buyers and sellers understand the Real Estate Market in 2019.</p>  
@@ -75,43 +95,59 @@
       
 
         <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Marketing and Office Assistant</h3>
+        <section class="job-item">
+          <div class="job-details">
+            <h3>Marketing Assistant</h3>
           <p class="location">Edina Reality</p>
           <p class="date">May 2019-Present</p c>
-          <p>Provide marketing and office support for the Eric Katz Group.</p>
-          <p>Responsibilites:</p>
-          <ul>
-            <li>Develop marketing flyers for new listings that feature property highlights.</li>
-            <li>Develop content for social media posts including templates, and imagery.</li>
-            <li>Maintain and update the Eric Katz Group website.</li>
-            <li>General office work.</li>
-          </ul>
-   
+          </div>
+          <div class="job-description">
+           
+            <p>Responsibilites:</p>
+            <ul>
+              <li>Provide marketing and office support for the Eric Katz Group.<lip>
+              <li>Develop marketing flyers for new listings that feature property highlights.</li>
+              <li>Develop content for social media posts including templates, and imagery.</li>
+              <li>Maintain and update the Eric Katz Group website.</li>
+              <li>General office work.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="job-item">
+          <div class="job-details">
             <h3>Senior Stylist</h3>
             <p class="location">Stitch Fix</p>
             <p class= "date">August 2017 - Present</p>
-            <p>Style a high volume of Fixes for clients while ensuring that thier requests and preferences are being met.</p>
+           </div>
+           <div class="job-description">
+           
             <p>Responsibilities:</p>
             <ul>
+              <li>Style a high volume of Fixes for clients while ensuring that thier requests and preferences are being met.</li>
               <li>Improve company profits by consistently meeting or exceeding keep rate and average order value metrics.</li>
               <li>Develop personal relationships with clients through style notes to increase brand loyalty and generate order backlog.</li>
               <li>Execute creativity and design principles to develop cohesive Fixes that appeal to each clients’ style and fit preferences and increase the number of repeat customers and purchase frequency.</li>
             </ul>
-         
-      
+            </div>
+        </section>
+      <section class="job-item">
+        <div class="job-details">
       <h3>Project Coordinator</h3>
       <p class ="location">MGC Diagnostics</p>
       <p class="date">August 2014 - Present</p>
-      <p>Coordinate large scale projects and engineer change orders to ensure effective updates are meet.</p>
+      </div>
+      <div class="job-description">
+      
       <p>Responsibilites:</p>
       <ul>
+        <li>Coordinate large scale projects and engineer change orders to ensure effective updates are meet.</li>
         <li>Reduce impact on customer operations by working cross-functionally with marketing and purchasing departments to develop time-sensitive product labels using Adobe Creative Suite.</li>
         <li>Successfully managed the execution of the ISO: 13485 regulatory standards transition project to achieve re-certification as a medical device manufactures and maintain shipment schedule.</li>
         <li>Increase efficiency of the engineering change order review process to reduce impact on the production schedule through efficient review and editing of quality management system documentation. </li>
        
       </ul>
-    
+      </div>
+    </section>
     </section>
     <!-- End of Job block. -->
     </div>

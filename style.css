@@ -41,10 +41,17 @@ body {
    
 }
 
+.me{
+max-width: 4in;
+max-height: 3in;
+padding: 2em 0em;
+float: left;
+padding: 2em;
+}
 .north, .magazine, .info {
   
-  max-width: 250px;
-  max-height:375px;
+  max-width: 2.7in;
+  max-height:3.9in;
   border: solid;
   float: left;
   border-width: 5px;
@@ -87,6 +94,7 @@ h4{
     font-size:25px;
     margin: 0;
     font-weight: 400px;
+    padding-bottom: 3em;
 
 }
 .projectname{
@@ -156,7 +164,12 @@ header {
 
 .work {
     background: #A0CFD3;;
+}
 
+.job-item {
+ display:grid;
+ grid-template-columns: 1fr 2.25fr;
+ column-gap: 15px;
 }
 
 .edu{
